@@ -1,0 +1,20 @@
+# CPU environment: paper analysis (analysis/, results/model_comparison/tables), behavioral statistics,
+# Bayesian agent and its held-out fit. Tested with Python 3.10.
+pandas>=1.5.0
+numpy>=1.21.0
+pyarrow>=10.0.0
+scipy>=1.9.0
+statsmodels>=0.13.0
+scikit-learn>=1.1.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+tqdm>=4.64.0
+
+# Tests (bayesian/test_suite.py)
+pytest>=7.0.0
+
+# Centaur / LLaMA (GPU only; install in a separate environment, see centaur/scripts/*.slurm)
+# torch>=2.0.0
+# transformers>=4.30.0
+# unsloth
+# wandb

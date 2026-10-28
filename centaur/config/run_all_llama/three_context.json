@@ -1,0 +1,21 @@
+{
+  "model_name": "unsloth/Meta-Llama-3.1-70B-bnb-4bit",
+  "model_nickname": "llama",
+  "mode": "probabilistic",
+  "bandit": "three_context",
+  "additional_instruction": " You will also see either a square, a circle, or a triangle.",
+  "rotate": false,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "When you see a square, choose 5. When you see a circle, choose 1. When you see a triangle, explore all buttons to find the best.",
+      "Explore the buttons to find the best one for each shape.",
+      "The button values change under each shape.",
+      "When you see a square or circle, the buttons are sorted in different directions.",
+      "Pay attention to the shapes."
+    ],
+  "ntrials": 40
+}

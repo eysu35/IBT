@@ -1,0 +1,20 @@
+{
+  "model_name": "marcelbinz/Llama-3.1-Centaur-70B-adapter",
+  "model_nickname": "centaur",
+  "mode": "probabilistic",
+  "bandit": "patch_foraging",
+  "rotate": true,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "{max2} begins as the best, but the points decrease over time.",
+      "Each button value will decrease if you keep choosing it, but it will increase over time if not.",
+      "Find a few good buttons and alternate between them to maximize your points.",
+      "The points you get on the first pick of a button are the most representative of the button value.",
+      "Do not stick with any one button for too long."
+    ],
+  "ntrials": 20
+}

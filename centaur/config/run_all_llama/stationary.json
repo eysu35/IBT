@@ -1,0 +1,20 @@
+{
+  "model_name": "unsloth/Meta-Llama-3.1-70B-bnb-4bit",
+  "model_nickname": "llama",
+  "mode": "probabilistic",
+  "bandit": "stationary",
+  "rotate": true,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "{max2} is the best.",
+      "{min2} is the worst.",
+      "Explore all buttons, then stick with the one that gave the most points.",
+      "{max1} is better than {min2}, {min1}, and {mid}.",
+      "One button is the best."
+    ],
+  "ntrials": 20
+}

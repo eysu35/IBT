@@ -1,0 +1,521 @@
+frame,level,delta,delta_sd_units,power_05,power_fdr,n_fail,n_sims
+stationary | onset 0,{max2} is the best.,0.0,0.0,0.053,0.001,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,0.0,0.0,0.037,0.007,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,0.0,0.0,0.067,0.003,0,1000
+stationary | onset 0,One button is the best.,0.0,0.0,0.051,0.003,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",0.0,0.0,0.052,0.004,0,1000
+stationary | onset 0,{max2} is the best.,0.4775082123892627,0.05,0.072,0.008,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,0.4775082123892627,0.05,0.056,0.005,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,0.4775082123892627,0.05,0.072,0.01,0,1000
+stationary | onset 0,One button is the best.,0.4775082123892627,0.05,0.063,0.007,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",0.4775082123892627,0.05,0.073,0.005,0,1000
+stationary | onset 0,{max2} is the best.,0.9550164247785254,0.1,0.114,0.015,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,0.9550164247785254,0.1,0.105,0.011,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,0.9550164247785254,0.1,0.105,0.016,0,1000
+stationary | onset 0,One button is the best.,0.9550164247785254,0.1,0.114,0.013,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",0.9550164247785254,0.1,0.114,0.01,0,1000
+stationary | onset 0,{max2} is the best.,1.432524637167788,0.15,0.189,0.029,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,1.432524637167788,0.15,0.17,0.03,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,1.432524637167788,0.15,0.169,0.035,0,1000
+stationary | onset 0,One button is the best.,1.432524637167788,0.15,0.186,0.031,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",1.432524637167788,0.15,0.18,0.037,0,1000
+stationary | onset 0,{max2} is the best.,1.9100328495570509,0.2,0.285,0.079,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,1.9100328495570509,0.2,0.278,0.06,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,1.9100328495570509,0.2,0.281,0.068,0,1000
+stationary | onset 0,One button is the best.,1.9100328495570509,0.2,0.304,0.067,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",1.9100328495570509,0.2,0.285,0.066,0,1000
+stationary | onset 0,{max2} is the best.,2.3875410619463135,0.25,0.413,0.128,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,2.3875410619463135,0.25,0.387,0.112,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,2.3875410619463135,0.25,0.416,0.119,0,1000
+stationary | onset 0,One button is the best.,2.3875410619463135,0.25,0.431,0.126,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",2.3875410619463135,0.25,0.419,0.121,0,1000
+stationary | onset 0,{max2} is the best.,2.865049274335576,0.3,0.57,0.209,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,2.865049274335576,0.3,0.53,0.19,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,2.865049274335576,0.3,0.572,0.206,0,1000
+stationary | onset 0,One button is the best.,2.865049274335576,0.3,0.556,0.217,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",2.865049274335576,0.3,0.566,0.208,0,1000
+stationary | onset 0,{max2} is the best.,3.8200656991141018,0.4,0.803,0.449,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,3.8200656991141018,0.4,0.792,0.422,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,3.8200656991141018,0.4,0.801,0.458,0,1000
+stationary | onset 0,One button is the best.,3.8200656991141018,0.4,0.783,0.47,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",3.8200656991141018,0.4,0.806,0.46,0,1000
+stationary | onset 0,{max2} is the best.,4.775082123892627,0.5,0.943,0.731,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,4.775082123892627,0.5,0.946,0.714,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,4.775082123892627,0.5,0.931,0.723,0,1000
+stationary | onset 0,One button is the best.,4.775082123892627,0.5,0.939,0.713,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",4.775082123892627,0.5,0.932,0.724,0,1000
+stationary | onset 0,{max2} is the best.,6.207606761060416,0.65,0.996,0.951,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,6.207606761060416,0.65,0.994,0.959,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,6.207606761060416,0.65,0.993,0.943,0,1000
+stationary | onset 0,One button is the best.,6.207606761060416,0.65,0.994,0.948,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",6.207606761060416,0.65,0.991,0.94,0,1000
+stationary | onset 0,{max2} is the best.,7.6401313982282035,0.8,1.0,0.998,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,7.6401313982282035,0.8,0.999,0.995,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,7.6401313982282035,0.8,1.0,0.994,0,1000
+stationary | onset 0,One button is the best.,7.6401313982282035,0.8,1.0,0.994,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",7.6401313982282035,0.8,0.999,0.993,0,1000
+stationary | onset 0,{max2} is the best.,9.550164247785254,1.0,1.0,1.0,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,9.550164247785254,1.0,1.0,1.0,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,9.550164247785254,1.0,1.0,1.0,0,1000
+stationary | onset 0,One button is the best.,9.550164247785254,1.0,1.0,1.0,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",9.550164247785254,1.0,1.0,1.0,0,1000
+stationary | onset 0,{max2} is the best.,11.937705309731568,1.25,1.0,1.0,0,1000
+stationary | onset 0,Avoid {min1} and {min2}.,11.937705309731568,1.25,1.0,1.0,0,1000
+stationary | onset 0,{max1} and {max2} are better than the others.,11.937705309731568,1.25,1.0,1.0,0,1000
+stationary | onset 0,One button is the best.,11.937705309731568,1.25,1.0,1.0,0,1000
+stationary | onset 0,"Explore all buttons, then stick with the one that gave the most points.",11.937705309731568,1.25,1.0,1.0,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",0.0,0.0,0.058,0.001,0,1000
+stationary | onset 4,{max2} is the best.,0.0,0.0,0.063,0.005,0,1000
+stationary | onset 4,One button is the best.,0.0,0.0,0.051,0.002,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,0.0,0.0,0.067,0.005,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,0.0,0.0,0.045,0.003,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",0.5845885451371285,0.05,0.063,0.004,0,1000
+stationary | onset 4,{max2} is the best.,0.5845885451371285,0.05,0.078,0.008,0,1000
+stationary | onset 4,One button is the best.,0.5845885451371285,0.05,0.057,0.002,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,0.5845885451371285,0.05,0.082,0.008,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,0.5845885451371285,0.05,0.056,0.008,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",1.169177090274257,0.1,0.106,0.013,0,1000
+stationary | onset 4,{max2} is the best.,1.169177090274257,0.1,0.11,0.019,0,1000
+stationary | onset 4,One button is the best.,1.169177090274257,0.1,0.108,0.003,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,1.169177090274257,0.1,0.116,0.019,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,1.169177090274257,0.1,0.103,0.013,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",1.7537656354113855,0.15,0.153,0.025,0,1000
+stationary | onset 4,{max2} is the best.,1.7537656354113855,0.15,0.157,0.04,0,1000
+stationary | onset 4,One button is the best.,1.7537656354113855,0.15,0.176,0.025,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,1.7537656354113855,0.15,0.162,0.035,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,1.7537656354113855,0.15,0.172,0.022,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",2.338354180548514,0.2,0.242,0.052,0,1000
+stationary | onset 4,{max2} is the best.,2.338354180548514,0.2,0.255,0.065,0,1000
+stationary | onset 4,One button is the best.,2.338354180548514,0.2,0.258,0.043,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,2.338354180548514,0.2,0.232,0.065,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,2.338354180548514,0.2,0.239,0.041,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",2.9229427256856426,0.25,0.357,0.106,0,1000
+stationary | onset 4,{max2} is the best.,2.9229427256856426,0.25,0.378,0.116,0,1000
+stationary | onset 4,One button is the best.,2.9229427256856426,0.25,0.358,0.105,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,2.9229427256856426,0.25,0.326,0.108,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,2.9229427256856426,0.25,0.329,0.094,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",3.507531270822771,0.3,0.482,0.157,0,1000
+stationary | onset 4,{max2} is the best.,3.507531270822771,0.3,0.513,0.17,0,1000
+stationary | onset 4,One button is the best.,3.507531270822771,0.3,0.492,0.176,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,3.507531270822771,0.3,0.43,0.152,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,3.507531270822771,0.3,0.462,0.166,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",4.676708361097028,0.4,0.728,0.355,0,1000
+stationary | onset 4,{max2} is the best.,4.676708361097028,0.4,0.763,0.394,0,1000
+stationary | onset 4,One button is the best.,4.676708361097028,0.4,0.743,0.364,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,4.676708361097028,0.4,0.66,0.308,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,4.676708361097028,0.4,0.686,0.318,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",5.845885451371285,0.5,0.885,0.605,0,1000
+stationary | onset 4,{max2} is the best.,5.845885451371285,0.5,0.911,0.65,0,1000
+stationary | onset 4,One button is the best.,5.845885451371285,0.5,0.895,0.623,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,5.845885451371285,0.5,0.848,0.537,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,5.845885451371285,0.5,0.865,0.58,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",7.599651086782671,0.65,0.986,0.887,0,1000
+stationary | onset 4,{max2} is the best.,7.599651086782671,0.65,0.988,0.914,0,1000
+stationary | onset 4,One button is the best.,7.599651086782671,0.65,0.983,0.895,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,7.599651086782671,0.65,0.978,0.833,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,7.599651086782671,0.65,0.979,0.855,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",9.353416722194057,0.8,1.0,0.987,0,1000
+stationary | onset 4,{max2} is the best.,9.353416722194057,0.8,1.0,0.989,0,1000
+stationary | onset 4,One button is the best.,9.353416722194057,0.8,0.999,0.984,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,9.353416722194057,0.8,0.998,0.973,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,9.353416722194057,0.8,0.999,0.978,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",11.69177090274257,1.0,1.0,1.0,0,1000
+stationary | onset 4,{max2} is the best.,11.69177090274257,1.0,1.0,1.0,0,1000
+stationary | onset 4,One button is the best.,11.69177090274257,1.0,1.0,1.0,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,11.69177090274257,1.0,1.0,0.998,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,11.69177090274257,1.0,1.0,1.0,0,1000
+stationary | onset 4,"Explore all buttons, then stick with the one that gave the most points.",14.614713628428213,1.25,1.0,1.0,0,1000
+stationary | onset 4,{max2} is the best.,14.614713628428213,1.25,1.0,1.0,0,1000
+stationary | onset 4,One button is the best.,14.614713628428213,1.25,1.0,1.0,0,1000
+stationary | onset 4,{max1} and {max2} are better than the others.,14.614713628428213,1.25,1.0,1.0,0,1000
+stationary | onset 4,Avoid {min1} and {min2}.,14.614713628428213,1.25,1.0,1.0,0,1000
+stationary | onset 8,{max2} is the best.,0.0,0.0,0.053,0.004,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,0.0,0.0,0.045,0.007,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",0.0,0.0,0.05,0.004,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,0.0,0.0,0.044,0.006,0,1000
+stationary | onset 8,One button is the best.,0.0,0.0,0.045,0.002,0,1000
+stationary | onset 8,{max2} is the best.,0.5651980087789894,0.05,0.059,0.006,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,0.5651980087789894,0.05,0.056,0.006,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",0.5651980087789894,0.05,0.064,0.004,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,0.5651980087789894,0.05,0.064,0.007,0,1000
+stationary | onset 8,One button is the best.,0.5651980087789894,0.05,0.064,0.007,0,1000
+stationary | onset 8,{max2} is the best.,1.1303960175579788,0.1,0.086,0.013,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,1.1303960175579788,0.1,0.092,0.008,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",1.1303960175579788,0.1,0.1,0.008,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,1.1303960175579788,0.1,0.102,0.013,0,1000
+stationary | onset 8,One button is the best.,1.1303960175579788,0.1,0.105,0.014,0,1000
+stationary | onset 8,{max2} is the best.,1.695594026336968,0.15,0.158,0.027,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,1.695594026336968,0.15,0.147,0.022,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",1.695594026336968,0.15,0.168,0.024,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,1.695594026336968,0.15,0.164,0.023,0,1000
+stationary | onset 8,One button is the best.,1.695594026336968,0.15,0.166,0.027,0,1000
+stationary | onset 8,{max2} is the best.,2.2607920351159576,0.2,0.238,0.043,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,2.2607920351159576,0.2,0.23,0.048,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",2.2607920351159576,0.2,0.245,0.049,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,2.2607920351159576,0.2,0.25,0.055,0,1000
+stationary | onset 8,One button is the best.,2.2607920351159576,0.2,0.251,0.055,0,1000
+stationary | onset 8,{max2} is the best.,2.825990043894947,0.25,0.316,0.075,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,2.825990043894947,0.25,0.329,0.087,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",2.825990043894947,0.25,0.357,0.093,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,2.825990043894947,0.25,0.365,0.102,0,1000
+stationary | onset 8,One button is the best.,2.825990043894947,0.25,0.351,0.098,0,1000
+stationary | onset 8,{max2} is the best.,3.391188052673936,0.3,0.422,0.147,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,3.391188052673936,0.3,0.449,0.145,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",3.391188052673936,0.3,0.476,0.168,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,3.391188052673936,0.3,0.493,0.162,0,1000
+stationary | onset 8,One button is the best.,3.391188052673936,0.3,0.462,0.159,0,1000
+stationary | onset 8,{max2} is the best.,4.521584070231915,0.4,0.662,0.291,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,4.521584070231915,0.4,0.704,0.329,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",4.521584070231915,0.4,0.714,0.36,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,4.521584070231915,0.4,0.733,0.365,0,1000
+stationary | onset 8,One button is the best.,4.521584070231915,0.4,0.705,0.345,0,1000
+stationary | onset 8,{max2} is the best.,5.651980087789894,0.5,0.852,0.526,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,5.651980087789894,0.5,0.88,0.569,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",5.651980087789894,0.5,0.885,0.602,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,5.651980087789894,0.5,0.88,0.625,0,1000
+stationary | onset 8,One button is the best.,5.651980087789894,0.5,0.878,0.574,0,1000
+stationary | onset 8,{max2} is the best.,7.347574114126862,0.65,0.973,0.832,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,7.347574114126862,0.65,0.983,0.882,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",7.347574114126862,0.65,0.981,0.884,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,7.347574114126862,0.65,0.989,0.883,0,1000
+stationary | onset 8,One button is the best.,7.347574114126862,0.65,0.986,0.877,0,1000
+stationary | onset 8,{max2} is the best.,9.04316814046383,0.8,0.996,0.967,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,9.04316814046383,0.8,0.997,0.982,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",9.04316814046383,0.8,0.999,0.981,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,9.04316814046383,0.8,0.998,0.988,0,1000
+stationary | onset 8,One button is the best.,9.04316814046383,0.8,0.998,0.984,0,1000
+stationary | onset 8,{max2} is the best.,11.303960175579787,1.0,1.0,0.996,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,11.303960175579787,1.0,1.0,0.998,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",11.303960175579787,1.0,1.0,1.0,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,11.303960175579787,1.0,0.999,0.998,0,1000
+stationary | onset 8,One button is the best.,11.303960175579787,1.0,1.0,0.999,0,1000
+stationary | onset 8,{max2} is the best.,14.129950219474734,1.25,1.0,1.0,0,1000
+stationary | onset 8,Avoid {min1} and {min2}.,14.129950219474734,1.25,1.0,1.0,0,1000
+stationary | onset 8,"Explore all buttons, then stick with the one that gave the most points.",14.129950219474734,1.25,1.0,1.0,0,1000
+stationary | onset 8,{max1} and {max2} are better than the others.,14.129950219474734,1.25,1.0,1.0,0,1000
+stationary | onset 8,One button is the best.,14.129950219474734,1.25,1.0,1.0,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,0.0,0.0,0.058,0.002,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,0.0,0.0,0.062,0.003,0,1000
+stationary | onset 12,One button is the best.,0.0,0.0,0.048,0.002,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",0.0,0.0,0.053,0.007,0,1000
+stationary | onset 12,{max2} is the best.,0.0,0.0,0.059,0.003,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,0.5413841827445091,0.05,0.075,0.006,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,0.5413841827445091,0.05,0.08,0.012,0,1000
+stationary | onset 12,One button is the best.,0.5413841827445091,0.05,0.071,0.004,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",0.5413841827445091,0.05,0.069,0.014,0,1000
+stationary | onset 12,{max2} is the best.,0.5413841827445091,0.05,0.076,0.006,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,1.0827683654890181,0.1,0.115,0.017,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,1.0827683654890181,0.1,0.123,0.019,0,1000
+stationary | onset 12,One button is the best.,1.0827683654890181,0.1,0.114,0.014,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",1.0827683654890181,0.1,0.098,0.021,0,1000
+stationary | onset 12,{max2} is the best.,1.0827683654890181,0.1,0.123,0.02,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,1.6241525482335268,0.15,0.175,0.036,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,1.6241525482335268,0.15,0.183,0.043,0,1000
+stationary | onset 12,One button is the best.,1.6241525482335268,0.15,0.191,0.025,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",1.6241525482335268,0.15,0.157,0.039,0,1000
+stationary | onset 12,{max2} is the best.,1.6241525482335268,0.15,0.187,0.036,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,2.1655367309780362,0.2,0.275,0.067,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,2.1655367309780362,0.2,0.271,0.077,0,1000
+stationary | onset 12,One button is the best.,2.1655367309780362,0.2,0.268,0.058,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",2.1655367309780362,0.2,0.249,0.061,0,1000
+stationary | onset 12,{max2} is the best.,2.1655367309780362,0.2,0.271,0.067,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,2.706920913722545,0.25,0.376,0.113,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,2.706920913722545,0.25,0.383,0.118,0,1000
+stationary | onset 12,One button is the best.,2.706920913722545,0.25,0.39,0.109,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",2.706920913722545,0.25,0.359,0.094,0,1000
+stationary | onset 12,{max2} is the best.,2.706920913722545,0.25,0.386,0.112,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,3.2483050964670537,0.3,0.523,0.18,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,3.2483050964670537,0.3,0.516,0.182,0,1000
+stationary | onset 12,One button is the best.,3.2483050964670537,0.3,0.504,0.186,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",3.2483050964670537,0.3,0.486,0.152,0,1000
+stationary | onset 12,{max2} is the best.,3.2483050964670537,0.3,0.497,0.182,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,4.3310734619560725,0.4,0.746,0.378,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,4.3310734619560725,0.4,0.754,0.392,0,1000
+stationary | onset 12,One button is the best.,4.3310734619560725,0.4,0.726,0.39,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",4.3310734619560725,0.4,0.727,0.352,0,1000
+stationary | onset 12,{max2} is the best.,4.3310734619560725,0.4,0.74,0.378,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,5.41384182744509,0.5,0.897,0.642,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,5.41384182744509,0.5,0.913,0.658,0,1000
+stationary | onset 12,One button is the best.,5.41384182744509,0.5,0.892,0.626,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",5.41384182744509,0.5,0.906,0.598,0,1000
+stationary | onset 12,{max2} is the best.,5.41384182744509,0.5,0.895,0.606,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,7.037994375678617,0.65,0.99,0.9,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,7.037994375678617,0.65,0.99,0.915,0,1000
+stationary | onset 12,One button is the best.,7.037994375678617,0.65,0.984,0.893,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",7.037994375678617,0.65,0.99,0.901,0,1000
+stationary | onset 12,{max2} is the best.,7.037994375678617,0.65,0.985,0.89,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,8.662146923912145,0.8,1.0,0.99,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,8.662146923912145,0.8,0.999,0.99,0,1000
+stationary | onset 12,One button is the best.,8.662146923912145,0.8,0.998,0.984,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",8.662146923912145,0.8,0.999,0.989,0,1000
+stationary | onset 12,{max2} is the best.,8.662146923912145,0.8,0.999,0.984,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,10.82768365489018,1.0,1.0,1.0,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,10.82768365489018,1.0,1.0,1.0,0,1000
+stationary | onset 12,One button is the best.,10.82768365489018,1.0,1.0,0.999,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",10.82768365489018,1.0,1.0,0.999,0,1000
+stationary | onset 12,{max2} is the best.,10.82768365489018,1.0,1.0,1.0,0,1000
+stationary | onset 12,{max1} and {max2} are better than the others.,13.534604568612725,1.25,1.0,1.0,0,1000
+stationary | onset 12,Avoid {min1} and {min2}.,13.534604568612725,1.25,1.0,1.0,0,1000
+stationary | onset 12,One button is the best.,13.534604568612725,1.25,1.0,1.0,0,1000
+stationary | onset 12,"Explore all buttons, then stick with the one that gave the most points.",13.534604568612725,1.25,1.0,1.0,0,1000
+stationary | onset 12,{max2} is the best.,13.534604568612725,1.25,1.0,1.0,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,0.0,0.0,0.054,0.006,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",0.0,0.0,0.058,0.004,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.0,0.0,0.044,0.003,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,0.0,0.0,0.055,0.003,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,0.0,0.0,0.048,0.003,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,0.5858023603465212,0.05,0.072,0.007,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",0.5858023603465212,0.05,0.068,0.007,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.5858023603465212,0.05,0.064,0.006,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,0.5858023603465212,0.05,0.07,0.011,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,0.5858023603465212,0.05,0.06,0.005,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,1.1716047206930424,0.1,0.109,0.018,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",1.1716047206930424,0.1,0.114,0.017,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.1716047206930424,0.1,0.107,0.015,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,1.1716047206930424,0.1,0.116,0.023,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,1.1716047206930424,0.1,0.115,0.016,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,1.7574070810395637,0.15,0.219,0.037,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",1.7574070810395637,0.15,0.194,0.037,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.7574070810395637,0.15,0.187,0.032,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,1.7574070810395637,0.15,0.204,0.041,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,1.7574070810395637,0.15,0.204,0.029,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,2.343209441386085,0.2,0.344,0.075,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",2.343209441386085,0.2,0.316,0.084,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",2.343209441386085,0.2,0.318,0.07,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,2.343209441386085,0.2,0.306,0.081,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,2.343209441386085,0.2,0.336,0.073,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,2.929011801732606,0.25,0.473,0.14,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",2.929011801732606,0.25,0.445,0.14,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",2.929011801732606,0.25,0.478,0.147,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,2.929011801732606,0.25,0.455,0.146,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,2.929011801732606,0.25,0.462,0.144,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,3.5148141620791273,0.3,0.615,0.273,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",3.5148141620791273,0.3,0.597,0.243,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",3.5148141620791273,0.3,0.605,0.248,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,3.5148141620791273,0.3,0.603,0.236,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,3.5148141620791273,0.3,0.607,0.269,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,4.68641888277217,0.4,0.838,0.55,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",4.68641888277217,0.4,0.844,0.502,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",4.68641888277217,0.4,0.861,0.523,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,4.68641888277217,0.4,0.85,0.528,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,4.68641888277217,0.4,0.843,0.522,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,5.858023603465212,0.5,0.956,0.781,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",5.858023603465212,0.5,0.956,0.777,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",5.858023603465212,0.5,0.969,0.809,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,5.858023603465212,0.5,0.964,0.8,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,5.858023603465212,0.5,0.953,0.8,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,7.615430684504776,0.65,0.997,0.968,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",7.615430684504776,0.65,0.998,0.976,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",7.615430684504776,0.65,0.999,0.982,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,7.615430684504776,0.65,0.999,0.974,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,7.615430684504776,0.65,0.998,0.972,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,9.37283776554434,0.8,1.0,0.999,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",9.37283776554434,0.8,1.0,0.999,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",9.37283776554434,0.8,1.0,0.999,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,9.37283776554434,0.8,1.0,1.0,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,9.37283776554434,0.8,1.0,1.0,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,11.716047206930424,1.0,1.0,1.0,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",11.716047206930424,1.0,1.0,1.0,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",11.716047206930424,1.0,1.0,1.0,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,11.716047206930424,1.0,1.0,1.0,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,11.716047206930424,1.0,1.0,1.0,0,1000
+patch_foraging | onset 0,Do not stick with any one button for too long.,14.645059008663031,1.25,1.0,1.0,0,1000
+patch_foraging | onset 0,"{max2} begins as the best, but the points decrease over time.",14.645059008663031,1.25,1.0,1.0,0,1000
+patch_foraging | onset 0,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",14.645059008663031,1.25,1.0,1.0,0,1000
+patch_foraging | onset 0,Find a few good buttons and alternate between them to maximize your points.,14.645059008663031,1.25,1.0,1.0,0,1000
+patch_foraging | onset 0,The points you get on the first pick of a button are the most representative of the button value.,14.645059008663031,1.25,1.0,1.0,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,0.0,0.0,0.047,0.002,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,0.0,0.0,0.05,0.002,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,0.0,0.0,0.047,0.006,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.0,0.0,0.053,0.004,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",0.0,0.0,0.062,0.006,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,0.7581154174879492,0.05,0.048,0.005,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,0.7581154174879492,0.05,0.058,0.007,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,0.7581154174879492,0.05,0.064,0.004,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.7581154174879492,0.05,0.059,0.008,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",0.7581154174879492,0.05,0.06,0.011,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,1.5162308349758984,0.1,0.086,0.011,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,1.5162308349758984,0.1,0.088,0.013,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,1.5162308349758984,0.1,0.093,0.011,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.5162308349758984,0.1,0.089,0.017,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",1.5162308349758984,0.1,0.091,0.021,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,2.2743462524638476,0.15,0.148,0.018,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,2.2743462524638476,0.15,0.138,0.026,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,2.2743462524638476,0.15,0.156,0.023,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",2.2743462524638476,0.15,0.149,0.026,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",2.2743462524638476,0.15,0.163,0.037,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,3.032461669951797,0.2,0.24,0.036,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,3.032461669951797,0.2,0.233,0.051,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,3.032461669951797,0.2,0.226,0.052,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",3.032461669951797,0.2,0.238,0.047,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",3.032461669951797,0.2,0.245,0.057,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,3.790577087439746,0.25,0.346,0.086,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,3.790577087439746,0.25,0.338,0.088,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,3.790577087439746,0.25,0.33,0.086,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",3.790577087439746,0.25,0.341,0.089,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",3.790577087439746,0.25,0.335,0.089,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,4.548692504927695,0.3,0.455,0.146,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,4.548692504927695,0.3,0.461,0.147,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,4.548692504927695,0.3,0.447,0.152,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",4.548692504927695,0.3,0.459,0.158,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",4.548692504927695,0.3,0.441,0.161,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,6.064923339903594,0.4,0.701,0.337,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,6.064923339903594,0.4,0.708,0.341,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,6.064923339903594,0.4,0.681,0.322,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",6.064923339903594,0.4,0.733,0.355,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",6.064923339903594,0.4,0.72,0.339,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,7.581154174879492,0.5,0.86,0.572,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,7.581154174879492,0.5,0.886,0.579,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,7.581154174879492,0.5,0.862,0.575,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",7.581154174879492,0.5,0.884,0.626,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",7.581154174879492,0.5,0.883,0.589,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,9.85550042734334,0.65,0.983,0.853,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,9.85550042734334,0.65,0.993,0.889,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,9.85550042734334,0.65,0.98,0.861,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",9.85550042734334,0.65,0.988,0.89,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",9.85550042734334,0.65,0.991,0.881,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,12.129846679807187,0.8,1.0,0.982,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,12.129846679807187,0.8,1.0,0.993,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,12.129846679807187,0.8,0.999,0.98,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",12.129846679807187,0.8,1.0,0.988,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",12.129846679807187,0.8,0.998,0.991,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,15.162308349758984,1.0,1.0,1.0,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,15.162308349758984,1.0,1.0,1.0,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,15.162308349758984,1.0,1.0,1.0,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",15.162308349758984,1.0,1.0,1.0,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",15.162308349758984,1.0,1.0,1.0,0,1000
+patch_foraging | onset 4,Find a few good buttons and alternate between them to maximize your points.,18.95288543719873,1.25,1.0,1.0,0,1000
+patch_foraging | onset 4,The points you get on the first pick of a button are the most representative of the button value.,18.95288543719873,1.25,1.0,1.0,0,1000
+patch_foraging | onset 4,Do not stick with any one button for too long.,18.95288543719873,1.25,1.0,1.0,0,1000
+patch_foraging | onset 4,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",18.95288543719873,1.25,1.0,1.0,0,1000
+patch_foraging | onset 4,"{max2} begins as the best, but the points decrease over time.",18.95288543719873,1.25,1.0,1.0,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",0.0,0.0,0.037,0.003,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,0.0,0.0,0.049,0.003,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.0,0.0,0.047,0.003,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,0.0,0.0,0.062,0.004,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,0.0,0.0,0.041,0.002,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",0.8351202750731673,0.05,0.053,0.003,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,0.8351202750731673,0.05,0.052,0.002,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.8351202750731673,0.05,0.054,0.007,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,0.8351202750731673,0.05,0.067,0.005,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,0.8351202750731673,0.05,0.052,0.005,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",1.6702405501463347,0.1,0.088,0.006,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,1.6702405501463347,0.1,0.094,0.008,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.6702405501463347,0.1,0.081,0.01,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,1.6702405501463347,0.1,0.098,0.011,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,1.6702405501463347,0.1,0.074,0.013,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",2.5053608252195017,0.15,0.15,0.014,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,2.5053608252195017,0.15,0.15,0.026,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",2.5053608252195017,0.15,0.149,0.021,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,2.5053608252195017,0.15,0.15,0.025,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,2.5053608252195017,0.15,0.153,0.019,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",3.3404811002926693,0.2,0.236,0.044,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,3.3404811002926693,0.2,0.249,0.042,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",3.3404811002926693,0.2,0.248,0.046,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,3.3404811002926693,0.2,0.235,0.047,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,3.3404811002926693,0.2,0.228,0.039,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",4.1756013753658365,0.25,0.332,0.086,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,4.1756013753658365,0.25,0.359,0.095,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",4.1756013753658365,0.25,0.352,0.085,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,4.1756013753658365,0.25,0.321,0.08,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,4.1756013753658365,0.25,0.336,0.07,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",5.010721650439003,0.3,0.446,0.147,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,5.010721650439003,0.3,0.503,0.159,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",5.010721650439003,0.3,0.483,0.151,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,5.010721650439003,0.3,0.442,0.143,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,5.010721650439003,0.3,0.456,0.149,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",6.680962200585339,0.4,0.681,0.329,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,6.680962200585339,0.4,0.735,0.369,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",6.680962200585339,0.4,0.727,0.356,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,6.680962200585339,0.4,0.672,0.308,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,6.680962200585339,0.4,0.703,0.327,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",8.351202750731673,0.5,0.862,0.554,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,8.351202750731673,0.5,0.899,0.632,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",8.351202750731673,0.5,0.885,0.62,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,8.351202750731673,0.5,0.851,0.549,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,8.351202750731673,0.5,0.868,0.585,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",10.856563575951176,0.65,0.983,0.856,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,10.856563575951176,0.65,0.986,0.91,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",10.856563575951176,0.65,0.989,0.896,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,10.856563575951176,0.65,0.968,0.842,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,10.856563575951176,0.65,0.982,0.865,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",13.361924401170677,0.8,1.0,0.982,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,13.361924401170677,0.8,1.0,0.986,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",13.361924401170677,0.8,0.999,0.99,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,13.361924401170677,0.8,0.998,0.966,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,13.361924401170677,0.8,0.999,0.982,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",16.702405501463346,1.0,1.0,1.0,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,16.702405501463346,1.0,1.0,1.0,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",16.702405501463346,1.0,1.0,1.0,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,16.702405501463346,1.0,1.0,0.999,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,16.702405501463346,1.0,1.0,0.999,0,1000
+patch_foraging | onset 8,"{max2} begins as the best, but the points decrease over time.",20.878006876829183,1.25,1.0,1.0,0,1000
+patch_foraging | onset 8,Do not stick with any one button for too long.,20.878006876829183,1.25,1.0,1.0,0,1000
+patch_foraging | onset 8,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",20.878006876829183,1.25,1.0,1.0,0,1000
+patch_foraging | onset 8,The points you get on the first pick of a button are the most representative of the button value.,20.878006876829183,1.25,1.0,1.0,0,1000
+patch_foraging | onset 8,Find a few good buttons and alternate between them to maximize your points.,20.878006876829183,1.25,1.0,1.0,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.0,0.0,0.05,0.004,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,0.0,0.0,0.053,0.007,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,0.0,0.0,0.055,0.002,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,0.0,0.0,0.052,0.005,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",0.0,0.0,0.043,0.003,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",0.8830827541995472,0.05,0.06,0.004,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,0.8830827541995472,0.05,0.061,0.003,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,0.8830827541995472,0.05,0.059,0.004,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,0.8830827541995472,0.05,0.065,0.005,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",0.8830827541995472,0.05,0.06,0.001,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.7661655083990944,0.1,0.089,0.01,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,1.7661655083990944,0.1,0.105,0.007,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,1.7661655083990944,0.1,0.088,0.011,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,1.7661655083990944,0.1,0.101,0.016,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",1.7661655083990944,0.1,0.091,0.006,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",2.6492482625986415,0.15,0.137,0.02,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,2.6492482625986415,0.15,0.162,0.025,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,2.6492482625986415,0.15,0.143,0.03,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,2.6492482625986415,0.15,0.139,0.023,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",2.6492482625986415,0.15,0.152,0.022,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",3.5323310167981887,0.2,0.209,0.04,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,3.5323310167981887,0.2,0.227,0.049,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,3.5323310167981887,0.2,0.233,0.046,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,3.5323310167981887,0.2,0.221,0.047,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",3.5323310167981887,0.2,0.24,0.046,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",4.415413770997736,0.25,0.3,0.064,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,4.415413770997736,0.25,0.338,0.095,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,4.415413770997736,0.25,0.337,0.081,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,4.415413770997736,0.25,0.327,0.085,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",4.415413770997736,0.25,0.331,0.083,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",5.298496525197283,0.3,0.413,0.109,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,5.298496525197283,0.3,0.461,0.153,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,5.298496525197283,0.3,0.454,0.139,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,5.298496525197283,0.3,0.438,0.126,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",5.298496525197283,0.3,0.453,0.141,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",7.0646620335963775,0.4,0.629,0.263,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,7.0646620335963775,0.4,0.702,0.335,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,7.0646620335963775,0.4,0.688,0.333,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,7.0646620335963775,0.4,0.643,0.308,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",7.0646620335963775,0.4,0.706,0.326,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",8.830827541995472,0.5,0.799,0.489,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,8.830827541995472,0.5,0.89,0.581,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,8.830827541995472,0.5,0.849,0.562,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,8.830827541995472,0.5,0.843,0.51,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",8.830827541995472,0.5,0.874,0.58,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",11.480075804594113,0.65,0.946,0.778,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,11.480075804594113,0.65,0.983,0.885,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,11.480075804594113,0.65,0.983,0.846,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,11.480075804594113,0.65,0.97,0.825,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",11.480075804594113,0.65,0.984,0.871,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",14.129324067192755,0.8,0.992,0.933,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,14.129324067192755,0.8,0.999,0.981,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,14.129324067192755,0.8,1.0,0.982,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,14.129324067192755,0.8,0.997,0.96,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",14.129324067192755,0.8,0.999,0.983,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",17.661655083990944,1.0,0.999,0.994,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,17.661655083990944,1.0,1.0,1.0,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,17.661655083990944,1.0,1.0,1.0,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,17.661655083990944,1.0,1.0,0.999,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",17.661655083990944,1.0,1.0,1.0,0,1000
+patch_foraging | onset 12,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",22.07706885498868,1.25,1.0,1.0,0,1000
+patch_foraging | onset 12,Find a few good buttons and alternate between them to maximize your points.,22.07706885498868,1.25,1.0,1.0,0,1000
+patch_foraging | onset 12,The points you get on the first pick of a button are the most representative of the button value.,22.07706885498868,1.25,1.0,1.0,0,1000
+patch_foraging | onset 12,Do not stick with any one button for too long.,22.07706885498868,1.25,1.0,1.0,0,1000
+patch_foraging | onset 12,"{max2} begins as the best, but the points decrease over time.",22.07706885498868,1.25,1.0,1.0,0,1000

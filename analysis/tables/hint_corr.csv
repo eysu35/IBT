@@ -1,0 +1,3 @@
+y,x,pair,metric,pearson_r,spearman_rho,r_lo,r_hi,n
+bayesian,people,Bayesian vs People,hint_effect,0.7309574601760057,0.7493433395872422,0.635890594791068,0.8833890812289534,40
+centaur,people,Centaur vs People,hint_effect,0.8277339613843883,0.7457786116322703,0.7036853797125701,0.9239756105566739,40

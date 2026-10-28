@@ -1,0 +1,32 @@
+{
+  "total_trials": 63000,
+  "total_games": 3150,
+  "total_users": 300,
+  "games_per_type": {
+    "patch_foraging": 1575,
+    "stationary": 1575
+  },
+  "games_per_hint": {
+    "Avoid {min1} and {min2}.": 300,
+    "Do not stick with any one button for too long.": 300,
+    "Each button value will decrease if you keep choosing it, but it will increase over time if not.": 300,
+    "Explore all buttons, then stick with the one that gave the most points.": 300,
+    "Find a few good buttons and alternate between them to maximize your points.": 300,
+    "No hint.": 150,
+    "One button is the best.": 300,
+    "The points you get on the first pick of a button are the most representative of the button value.": 300,
+    "{max1} and {max2} are better than the others.": 300,
+    "{max2} begins as the best, but the points decrease over time.": 300,
+    "{max2} is the best.": 300
+  },
+  "hint_timing_counts": {
+    "0": 900,
+    "12": 749,
+    "4": 755,
+    "8": 746
+  },
+  "data_version_counts": {
+    "new": 2250,
+    "old": 900
+  }
+}

@@ -1,0 +1,161 @@
+variant,type,ogHint,full,delta,change,abs_change,kind,cat,undefined
+no_hier_oracle,time_delayed,"{max2} is the best, even if it doesn't seem like it at first.",16.12857142857133,27.771428571428437,11.642857142857107,11.642857142857107,mu,V,False
+no_hier_oracle,time_delayed,{max2} is the best.,34.64999999999997,30.92142857142854,-3.7285714285714313,3.7285714285714313,mu,V,False
+no_hier_oracle,linear_contextual,The first number has a negative impact on the points. Only choose buttons with a 0 as the first number.,3.092857142857143,1.157142857142857,-1.935714285714286,1.935714285714286,theta,S,False
+no_hier_oracle,stationary,{max2} is the best.,13.78571428571425,11.914285714285674,-1.8714285714285754,1.8714285714285754,mu,V,False
+no_hier_oracle,two_context,The button values change for square and circle.,1.7392857142857052,-9.380432378401488e-15,-1.7392857142857145,1.7392857142857145,tau,S,True
+no_hier_oracle,stationary,"Explore all buttons, then stick with the one that gave the most points.",1.4071428571428406,-0.15714285714286547,-1.564285714285706,1.564285714285706,history,P,False
+no_hier_oracle,drifting,"{max2} begins as the best, but the button values change over trials.",10.975938521235404,12.529402164632396,1.5534636433969915,1.5534636433969915,mu,V,False
+no_hier_oracle,drifting,"Even after finding a good button, continue trying the others to detect changes.",1.4955928693829286,-0.05295373640331391,-1.5485466057862425,1.5485466057862425,history,P,False
+no_hier_oracle,drifting,The button values drift by a small number at each trial.,1.4206317617134796,-6.939776374398405e-14,-1.420631761713549,1.420631761713549,tau,S,True
+no_hier_oracle,stationary,"{max1} is better than {min2}, {min1}, and {mid}.",7.985714285714234,6.628571428571382,-1.3571428571428523,1.3571428571428523,mu,V,False
+no_hier_oracle,stationary,One button is the best.,1.3357142857142374,-4.263256414560601e-14,-1.33571428571428,1.33571428571428,tau,S,True
+no_hier_oracle,drifting,The button values change gradually.,1.3184070181045282,-6.217248937900877e-14,-1.3184070181045904,1.3184070181045904,tau,S,True
+no_hier_oracle,patch_foraging,Find a few good buttons and alternate between them to maximize your points.,1.4282902011836285,0.11935898232477626,-1.3089312188588522,1.3089312188588522,history,P,False
+no_hier_oracle,patch_foraging,Do not stick with any one button for too long.,1.428290201183664,0.1193589823248189,-1.3089312188588451,1.3089312188588451,history,P,False
+no_hier_oracle,patch_foraging,"{max2} begins as the best, but the points decrease over time.",1.4282902011836627,0.11935898232481948,-1.3089312188588431,1.3089312188588431,history,V,False
+no_hier_oracle,three_context,"When you see a square or circle, the buttons are sorted in different directions.",1.2999999999999616,-3.197442310920451e-14,-1.2999999999999936,1.2999999999999936,tau,S,True
+no_hier_oracle,time_delayed,The points correspond to the choice you made 3 trials ago.,-0.292857142857315,0.9785714285712608,1.2714285714285758,1.2714285714285758,theta,S,False
+no_hier_oracle,patch_foraging,The points you get on the first pick of a button are the most representative of the button value.,1.0877841219695341,-7.105427357601002e-14,-1.0877841219696052,1.0877841219696052,tau,S,True
+no_hier_oracle,patch_foraging,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.087784121969528,-6.981830965508945e-14,-1.0877841219695976,1.0877841219695976,tau,S,True
+no_hier_oracle,linear_contextual,The three numbers under each button combine to calculate the total points.,1.064285714285722,3.552713678800501e-15,-1.0642857142857185,1.0642857142857185,tau,S,True
+no_hier_oracle,linear_contextual,One of the three numbers under the buttons always leads to more points.,1.064285714285738,2.1316282072803006e-14,-1.0642857142857167,1.0642857142857167,tau,S,True
+no_hier_oracle,linear_contextual,Choose the button with a 1 as its third number.,5.928571428571451,4.914285714285736,-1.0142857142857151,1.0142857142857151,theta,P,False
+no_hier_oracle,linear_contextual,"If the third number under the button is 1, you will get the most points.",5.928571428571423,4.914285714285711,-1.0142857142857116,1.0142857142857116,theta,V,False
+no_hier_oracle,bernoulli,"Explore all buttons, then stick to the one that most often returned points.",0.7857142857142705,-0.07857142857145405,-0.8642857142857245,0.8642857142857245,history,P,False
+no_hier_oracle,two_context,Pay attention to the shapes.,0.8250000000000242,1.2434497875801753e-14,-0.8250000000000117,0.8250000000000117,tau,P,True
+no_hier_oracle,two_context,Explore the buttons to find the best one for each shape.,0.824999999999994,-1.0658141036401503e-14,-0.8250000000000046,0.8250000000000046,tau,P,True
+no_hier_oracle,two_context,Each shape corresponds to a different set of button values.,0.8250000000000369,3.411398862326861e-14,-0.8250000000000028,0.8250000000000028,tau,S,True
+no_hier_oracle,time_delayed,There is a time delay between your choice and the points you receive.,-0.7571428571430446,-1.93955655772024e-13,0.7571428571428507,0.7571428571428507,tau,S,True
+no_hier_oracle,three_context,Explore the buttons to find the best one for each shape.,0.6999999999999744,-3.197442310920451e-14,-0.7000000000000064,0.7000000000000064,tau,P,True
+no_hier_oracle,three_context,Pay attention to the shapes.,0.6999999999999176,-8.171241461241152e-14,-0.6999999999999993,0.6999999999999993,tau,P,True
+no_hier_oracle,three_context,The button values change under each shape.,0.6999999999999409,-5.622433134302994e-14,-0.6999999999999971,0.6999999999999971,tau,S,True
+no_hier_oracle,time_delayed,Choose a button for a few trials in a row to observe its true value.,-0.7571428571429095,-0.13571428571435362,0.6214285714285559,0.6214285714285559,history,P,False
+no_hier_oracle,bernoulli,{max2} is most likely to return 100 points.,25.625000000000032,25.23928571428575,-0.38571428571428257,0.38571428571428257,mu,V,False
+no_hier_oracle,three_context,"When you see a square, choose G. When you see a circle, choose A. When you see a triangle, explore all buttons to find the best.",10.535714285714278,10.774999999999997,0.2392857142857192,0.2392857142857192,mu,V,False
+no_hier_oracle,stationary,{min2} is the worst.,3.3285714285714336,3.157142857142863,-0.17142857142857082,0.17142857142857082,mu,V,False
+no_hier_oracle,two_context,"When you see a square, {max2} is the best. When you see a circle, {min2} is the best.",12.307142857142873,12.400000000000016,0.09285714285714342,0.09285714285714342,mu,V,False
+no_hier_oracle,bernoulli,Choose a button multiple times to learn its probability of returning points.,0.06428571428578723,6.68949731991812e-14,-0.06428571428572034,0.06428571428572034,tau,P,True
+no_hier_oracle,bernoulli,The probability for returning points is fixed for each button.,0.0642857142857558,3.552713678800501e-14,-0.06428571428572027,0.06428571428572027,tau,S,True
+no_hier_oracle,bernoulli,There is a chance of returning 0 points even if the button is good.,0.0642857142856973,-2.1546338224100316e-14,-0.06428571428571886,0.06428571428571886,tau,S,True
+no_hier_oracle,drifting,{min2} and {min1} begin as the worst buttons.,7.51485256163751,7.458605383647112,-0.056247177990398356,0.056247177990398356,mu,V,False
+no_hier,two_context,"When you see a square, {max2} is the best. When you see a circle, {min2} is the best.",12.307142857142873,46.48928571428577,34.1821428571429,34.1821428571429,mu,V,False
+no_hier,time_delayed,"{max2} is the best, even if it doesn't seem like it at first.",16.12857142857133,33.49999999999985,17.37142857142852,17.37142857142852,mu,V,False
+no_hier,three_context,"When you see a square, choose G. When you see a circle, choose A. When you see a triangle, explore all buttons to find the best.",10.535714285714278,24.474999999999984,13.939285714285706,13.939285714285706,mu,V,False
+no_hier,bernoulli,{max2} is most likely to return 100 points.,25.625000000000032,18.15357142857147,-7.471428571428561,7.471428571428561,mu,V,False
+no_hier,linear_contextual,"If the third number under the button is 1, you will get the most points.",5.928571428571423,-4.263256414560601e-14,-5.928571428571465,5.928571428571465,theta,V,True
+no_hier,linear_contextual,Choose the button with a 1 as its third number.,5.928571428571451,1.398635487550379e-13,-5.928571428571312,5.928571428571312,theta,P,True
+no_hier,linear_contextual,The first number has a negative impact on the points. Only choose buttons with a 0 as the first number.,3.092857142857143,-8.614598489338842e-14,-3.092857142857229,3.092857142857229,theta,S,True
+no_hier,stationary,{max2} is the best.,13.78571428571425,11.914285714285674,-1.8714285714285754,1.8714285714285754,mu,V,False
+no_hier,drifting,"{max2} begins as the best, but the button values change over trials.",10.975938521235404,12.720505074889104,1.7445665536536996,1.7445665536536996,mu,V,False
+no_hier,two_context,The button values change for square and circle.,1.7392857142857052,-2.7698821368213817e-14,-1.739285714285733,1.739285714285733,tau,S,True
+no_hier,drifting,"Even after finding a good button, continue trying the others to detect changes.",1.4955928693829286,-0.07807171864325468,-1.5736645880261833,1.5736645880261833,history,P,False
+no_hier,stationary,"Explore all buttons, then stick with the one that gave the most points.",1.4071428571428406,-0.15714285714286547,-1.564285714285706,1.564285714285706,history,P,False
+no_hier,bernoulli,"Explore all buttons, then stick to the one that most often returned points.",0.7857142857142705,-0.7464285714285808,-1.5321428571428513,1.5321428571428513,history,P,False
+no_hier,drifting,The button values drift by a small number at each trial.,1.4206317617134796,-6.90489197701271e-14,-1.4206317617135487,1.4206317617135487,tau,S,True
+no_hier,stationary,"{max1} is better than {min2}, {min1}, and {mid}.",7.985714285714234,6.628571428571382,-1.3571428571428523,1.3571428571428523,mu,V,False
+no_hier,stationary,One button is the best.,1.3357142857142374,-4.263256414560601e-14,-1.33571428571428,1.33571428571428,tau,S,True
+no_hier,drifting,The button values change gradually.,1.3184070181045282,-5.861977570020827e-14,-1.3184070181045868,1.3184070181045868,tau,S,True
+no_hier,three_context,"When you see a square or circle, the buttons are sorted in different directions.",1.2999999999999616,-6.394884621840902e-14,-1.3000000000000256,1.3000000000000256,tau,S,True
+no_hier,patch_foraging,Find a few good buttons and alternate between them to maximize your points.,1.4282902011836285,0.15466230649914792,-1.2736278946844806,1.2736278946844806,history,P,False
+no_hier,patch_foraging,"{max2} begins as the best, but the points decrease over time.",1.4282902011836627,0.1546623064991865,-1.2736278946844761,1.2736278946844761,history,V,False
+no_hier,patch_foraging,Do not stick with any one button for too long.,1.428290201183664,0.1546623064991941,-1.27362789468447,1.27362789468447,history,P,False
+no_hier,time_delayed,{max2} is the best.,34.64999999999997,33.49999999999994,-1.150000000000027,1.150000000000027,mu,V,False
+no_hier,patch_foraging,The points you get on the first pick of a button are the most representative of the button value.,1.0877841219695341,-8.171241461241152e-14,-1.0877841219696158,1.0877841219696158,tau,S,True
+no_hier,patch_foraging,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.087784121969528,-6.896726289501222e-14,-1.087784121969597,1.087784121969597,tau,S,True
+no_hier,linear_contextual,The three numbers under each button combine to calculate the total points.,1.064285714285722,-2.842170943040401e-14,-1.0642857142857505,1.0642857142857505,tau,S,True
+no_hier,linear_contextual,One of the three numbers under the buttons always leads to more points.,1.064285714285738,5.684341886080802e-14,-1.0642857142856812,1.0642857142856812,tau,S,True
+no_hier,two_context,Explore the buttons to find the best one for each shape.,0.824999999999994,-2.842170943040401e-14,-0.8250000000000224,0.8250000000000224,tau,P,True
+no_hier,two_context,Pay attention to the shapes.,0.8250000000000242,7.105427357601002e-14,-0.8249999999999531,0.8249999999999531,tau,P,True
+no_hier,two_context,Each shape corresponds to a different set of button values.,0.8250000000000369,1.3803782254129927e-13,-0.8249999999998989,0.8249999999998989,tau,S,True
+no_hier,time_delayed,Choose a button for a few trials in a row to observe its true value.,-0.7571428571429095,0.01428571428564851,0.771428571428558,0.771428571428558,history,P,False
+no_hier,time_delayed,There is a time delay between your choice and the points you receive.,-0.7571428571430446,-2.143831946436747e-13,0.7571428571428303,0.7571428571428303,tau,S,True
+no_hier,three_context,Pay attention to the shapes.,0.6999999999999176,-1.7763568394002505e-13,-0.7000000000000952,0.7000000000000952,tau,P,True
+no_hier,three_context,The button values change under each shape.,0.6999999999999409,-1.320286259823929e-13,-0.7000000000000729,0.7000000000000729,tau,S,True
+no_hier,three_context,Explore the buttons to find the best one for each shape.,0.6999999999999744,-2.842170943040401e-14,-0.7000000000000028,0.7000000000000028,tau,P,True
+no_hier,time_delayed,The points correspond to the choice you made 3 trials ago.,-0.292857142857315,-1.7053025658242404e-13,0.2928571428571445,0.2928571428571445,theta,S,True
+no_hier,stationary,{min2} is the worst.,3.3285714285714336,3.157142857142863,-0.17142857142857082,0.17142857142857082,mu,V,False
+no_hier,drifting,{min2} and {min1} begin as the worst buttons.,7.51485256163751,7.44735540882932,-0.06749715280819046,0.06749715280819046,mu,V,False
+no_hier,bernoulli,The probability for returning points is fixed for each button.,0.0642857142857558,2.842170943040401e-14,-0.06428571428572738,0.06428571428572738,tau,S,True
+no_hier,bernoulli,Choose a button multiple times to learn its probability of returning points.,0.06428571428578723,6.115971543821114e-14,-0.06428571428572608,0.06428571428572608,tau,P,True
+no_hier,bernoulli,There is a chance of returning 0 points even if the button is good.,0.0642857142856973,-1.788448311328306e-14,-0.0642857142857152,0.0642857142857152,tau,S,True
+no_hint,time_delayed,{max2} is the best.,34.64999999999997,-1.0127034586620992e-15,-34.64999999999997,34.64999999999997,mu,V,False
+no_hint,bernoulli,{max2} is most likely to return 100 points.,25.625000000000032,-1.0658141036401503e-14,-25.625000000000043,25.625000000000043,mu,V,False
+no_hint,time_delayed,"{max2} is the best, even if it doesn't seem like it at first.",16.12857142857133,-3.552713678800501e-14,-16.128571428571366,16.128571428571366,mu,V,False
+no_hint,stationary,{max2} is the best.,13.78571428571425,-1.4210854715202004e-14,-13.785714285714263,13.785714285714263,mu,V,False
+no_hint,two_context,"When you see a square, {max2} is the best. When you see a circle, {min2} is the best.",12.307142857142873,-1.7763568394002505e-15,-12.307142857142875,12.307142857142875,mu,V,False
+no_hint,drifting,"{max2} begins as the best, but the button values change over trials.",10.975938521235404,-1.7763568394002505e-14,-10.975938521235422,10.975938521235422,mu,V,False
+no_hint,three_context,"When you see a square, choose G. When you see a circle, choose A. When you see a triangle, explore all buttons to find the best.",10.535714285714278,-2.7599588624216655e-15,-10.535714285714281,10.535714285714281,mu,V,False
+no_hint,stationary,"{max1} is better than {min2}, {min1}, and {mid}.",7.985714285714234,-2.3928206668336713e-14,-7.985714285714258,7.985714285714258,mu,V,False
+no_hint,drifting,{min2} and {min1} begin as the worst buttons.,7.51485256163751,-7.434142497318796e-16,-7.514852561637511,7.514852561637511,mu,V,False
+no_hint,linear_contextual,"If the third number under the button is 1, you will get the most points.",5.928571428571423,-1.4210854715202004e-14,-5.928571428571437,5.928571428571437,theta,V,False
+no_hint,linear_contextual,Choose the button with a 1 as its third number.,5.928571428571451,2.6235372655729265e-14,-5.928571428571424,5.928571428571424,theta,P,False
+no_hint,stationary,{min2} is the worst.,3.3285714285714336,-8.901711736487182e-17,-3.3285714285714336,3.3285714285714336,mu,V,False
+no_hint,linear_contextual,The first number has a negative impact on the points. Only choose buttons with a 0 as the first number.,3.092857142857143,-1.5075324596422673e-14,-3.092857142857158,3.092857142857158,theta,S,False
+no_hint,two_context,The button values change for square and circle.,1.7392857142857052,-2.1750606097946592e-14,-1.739285714285727,1.739285714285727,tau,S,False
+no_hint,drifting,"Even after finding a good button, continue trying the others to detect changes.",1.4955928693829286,8.881784197001252e-15,-1.4955928693829197,1.4955928693829197,history,P,False
+no_hint,patch_foraging,Find a few good buttons and alternate between them to maximize your points.,1.4282902011836285,-4.973799150320701e-14,-1.4282902011836782,1.4282902011836782,history,P,False
+no_hint,patch_foraging,"{max2} begins as the best, but the points decrease over time.",1.4282902011836627,-2.8005845282296433e-15,-1.4282902011836656,1.4282902011836656,history,V,False
+no_hint,patch_foraging,Do not stick with any one button for too long.,1.428290201183664,7.105427357601002e-15,-1.428290201183657,1.428290201183657,history,P,False
+no_hint,drifting,The button values drift by a small number at each trial.,1.4206317617134796,-2.5648141511227838e-14,-1.4206317617135054,1.4206317617135054,tau,S,False
+no_hint,stationary,"Explore all buttons, then stick with the one that gave the most points.",1.4071428571428406,-5.329070518200751e-15,-1.407142857142846,1.407142857142846,history,P,False
+no_hint,stationary,One button is the best.,1.3357142857142374,-5.861977570020827e-14,-1.335714285714296,1.335714285714296,tau,S,False
+no_hint,drifting,The button values change gradually.,1.3184070181045282,-5.3290705182007514e-14,-1.3184070181045815,1.3184070181045815,tau,S,False
+no_hint,three_context,"When you see a square or circle, the buttons are sorted in different directions.",1.2999999999999616,-1.7763568394002505e-14,-1.2999999999999794,1.2999999999999794,tau,S,False
+no_hint,patch_foraging,The points you get on the first pick of a button are the most representative of the button value.,1.0877841219695341,-7.105427357601002e-14,-1.0877841219696052,1.0877841219696052,tau,S,False
+no_hint,patch_foraging,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.087784121969528,-7.451095740607422e-14,-1.0877841219696025,1.0877841219696025,tau,S,False
+no_hint,linear_contextual,One of the three numbers under the buttons always leads to more points.,1.064285714285738,1.0658141036401503e-14,-1.0642857142857274,1.0642857142857274,tau,S,False
+no_hint,linear_contextual,The three numbers under each button combine to calculate the total points.,1.064285714285722,-1.7763568394002505e-15,-1.0642857142857238,1.0642857142857238,tau,S,False
+no_hint,two_context,Pay attention to the shapes.,0.8250000000000242,1.4210854715202004e-14,-0.82500000000001,0.82500000000001,tau,P,False
+no_hint,two_context,Explore the buttons to find the best one for each shape.,0.824999999999994,-1.4210854715202004e-14,-0.8250000000000082,0.8250000000000082,tau,P,False
+no_hint,two_context,Each shape corresponds to a different set of button values.,0.8250000000000369,3.53584936571456e-14,-0.8250000000000016,0.8250000000000016,tau,S,False
+no_hint,bernoulli,"Explore all buttons, then stick to the one that most often returned points.",0.7857142857142705,-2.842170943040401e-14,-0.7857142857142989,0.7857142857142989,history,P,False
+no_hint,time_delayed,There is a time delay between your choice and the points you receive.,-0.7571428571430446,-6.077615756481794e-14,0.7571428571429839,0.7571428571429839,tau,S,False
+no_hint,time_delayed,Choose a button for a few trials in a row to observe its true value.,-0.7571428571429095,2.842170943040401e-14,0.7571428571429379,0.7571428571429379,history,P,False
+no_hint,three_context,Pay attention to the shapes.,0.6999999999999176,-6.394884621840902e-14,-0.6999999999999815,0.6999999999999815,tau,P,False
+no_hint,three_context,The button values change under each shape.,0.6999999999999409,-3.2442874214270656e-14,-0.6999999999999733,0.6999999999999733,tau,S,False
+no_hint,three_context,Explore the buttons to find the best one for each shape.,0.6999999999999744,7.105427357601002e-15,-0.6999999999999673,0.6999999999999673,tau,P,False
+no_hint,time_delayed,The points correspond to the choice you made 3 trials ago.,-0.292857142857315,-1.3500311979441904e-13,0.29285714285718,0.29285714285718,theta,S,False
+no_hint,bernoulli,The probability for returning points is fixed for each button.,0.0642857142857558,1.4210854715202004e-14,-0.06428571428574159,0.06428571428574159,tau,S,False
+no_hint,bernoulli,There is a chance of returning 0 points even if the button is good.,0.0642857142856973,-3.79406104932183e-14,-0.06428571428573525,0.06428571428573525,tau,S,False
+no_hint,bernoulli,Choose a button multiple times to learn its probability of returning points.,0.06428571428578723,6.428799886810858e-14,-0.06428571428572295,0.06428571428572295,tau,P,False
+neither,time_delayed,{max2} is the best.,34.64999999999997,-3.691755478359578e-15,-34.64999999999998,34.64999999999998,mu,V,False
+neither,bernoulli,{max2} is most likely to return 100 points.,25.625000000000032,0.0,-25.625000000000032,25.625000000000032,mu,V,False
+neither,time_delayed,"{max2} is the best, even if it doesn't seem like it at first.",16.12857142857133,-4.263256414560601e-14,-16.128571428571373,16.128571428571373,mu,V,False
+neither,stationary,{max2} is the best.,13.78571428571425,-1.4210854715202004e-14,-13.785714285714263,13.785714285714263,mu,V,False
+neither,two_context,"When you see a square, {max2} is the best. When you see a circle, {min2} is the best.",12.307142857142873,-3.552713678800501e-14,-12.307142857142908,12.307142857142908,mu,V,False
+neither,drifting,"{max2} begins as the best, but the button values change over trials.",10.975938521235404,-1.9539925233402755e-14,-10.975938521235424,10.975938521235424,mu,V,False
+neither,three_context,"When you see a square, choose G. When you see a circle, choose A. When you see a triangle, explore all buttons to find the best.",10.535714285714278,-4.621504051419634e-15,-10.535714285714283,10.535714285714283,mu,V,False
+neither,stationary,"{max1} is better than {min2}, {min1}, and {mid}.",7.985714285714234,-2.1606895116523704e-14,-7.985714285714256,7.985714285714256,mu,V,False
+neither,drifting,{min2} and {min1} begin as the worst buttons.,7.51485256163751,-1.194324548932612e-15,-7.514852561637511,7.514852561637511,mu,V,False
+neither,linear_contextual,"If the third number under the button is 1, you will get the most points.",5.928571428571423,-4.263256414560601e-14,-5.928571428571465,5.928571428571465,theta,V,False
+neither,linear_contextual,Choose the button with a 1 as its third number.,5.928571428571451,1.398635487550379e-13,-5.928571428571312,5.928571428571312,theta,P,False
+neither,stationary,{min2} is the worst.,3.3285714285714336,-1.4390309620222748e-15,-3.328571428571435,3.328571428571435,mu,V,False
+neither,linear_contextual,The first number has a negative impact on the points. Only choose buttons with a 0 as the first number.,3.092857142857143,-8.614598489338842e-14,-3.092857142857229,3.092857142857229,theta,S,False
+neither,two_context,The button values change for square and circle.,1.7392857142857052,-6.552099116280687e-14,-1.7392857142857707,1.7392857142857707,tau,S,False
+neither,drifting,"Even after finding a good button, continue trying the others to detect changes.",1.4955928693829286,5.329070518200751e-15,-1.4955928693829232,1.4955928693829232,history,P,False
+neither,patch_foraging,Find a few good buttons and alternate between them to maximize your points.,1.4282902011836285,-4.618527782440651e-14,-1.4282902011836747,1.4282902011836747,history,P,False
+neither,patch_foraging,"{max2} begins as the best, but the points decrease over time.",1.4282902011836627,-2.9965776843867647e-15,-1.4282902011836656,1.4282902011836656,history,V,False
+neither,patch_foraging,Do not stick with any one button for too long.,1.428290201183664,7.105427357601002e-15,-1.428290201183657,1.428290201183657,history,P,False
+neither,drifting,The button values drift by a small number at each trial.,1.4206317617134796,-2.3044666202604915e-14,-1.4206317617135027,1.4206317617135027,tau,S,False
+neither,stationary,"Explore all buttons, then stick with the one that gave the most points.",1.4071428571428406,-3.552713678800501e-15,-1.4071428571428442,1.4071428571428442,history,P,False
+neither,stationary,One button is the best.,1.3357142857142374,-5.684341886080802e-14,-1.3357142857142943,1.3357142857142943,tau,S,False
+neither,drifting,The button values change gradually.,1.3184070181045282,-4.973799150320701e-14,-1.318407018104578,1.318407018104578,tau,S,False
+neither,three_context,"When you see a square or circle, the buttons are sorted in different directions.",1.2999999999999616,-4.973799150320701e-14,-1.3000000000000114,1.3000000000000114,tau,S,False
+neither,patch_foraging,The points you get on the first pick of a button are the most representative of the button value.,1.0877841219695341,-8.171241461241152e-14,-1.0877841219696158,1.0877841219696158,tau,S,False
+neither,patch_foraging,"Each button value will decrease if you keep choosing it, but it will increase over time if not.",1.087784121969528,-6.984480819901638e-14,-1.0877841219695978,1.0877841219695978,tau,S,False
+neither,linear_contextual,The three numbers under each button combine to calculate the total points.,1.064285714285722,-2.842170943040401e-14,-1.0642857142857505,1.0642857142857505,tau,S,False
+neither,linear_contextual,One of the three numbers under the buttons always leads to more points.,1.064285714285738,5.684341886080802e-14,-1.0642857142856812,1.0642857142856812,tau,S,False
+neither,two_context,Explore the buttons to find the best one for each shape.,0.824999999999994,-5.684341886080802e-14,-0.8250000000000508,0.8250000000000508,tau,P,False
+neither,two_context,Pay attention to the shapes.,0.8250000000000242,4.263256414560601e-14,-0.8249999999999815,0.8249999999999815,tau,P,False
+neither,two_context,Each shape corresponds to a different set of button values.,0.8250000000000369,1.196500389879997e-13,-0.8249999999999172,0.8249999999999172,tau,S,False
+neither,bernoulli,"Explore all buttons, then stick to the one that most often returned points.",0.7857142857142705,-2.4868995751603507e-14,-0.7857142857142954,0.7857142857142954,history,P,False
+neither,time_delayed,There is a time delay between your choice and the points you receive.,-0.7571428571430446,-6.017967993541207e-14,0.7571428571429845,0.7571428571429845,tau,S,False
+neither,time_delayed,Choose a button for a few trials in a row to observe its true value.,-0.7571428571429095,1.4210854715202004e-14,0.7571428571429237,0.7571428571429237,history,P,False
+neither,three_context,Pay attention to the shapes.,0.6999999999999176,-1.4210854715202004e-13,-0.7000000000000597,0.7000000000000597,tau,P,False
+neither,three_context,The button values change under each shape.,0.6999999999999409,-7.107738193047181e-14,-0.700000000000012,0.700000000000012,tau,S,False
+neither,three_context,Explore the buttons to find the best one for each shape.,0.6999999999999744,2.842170943040401e-14,-0.699999999999946,0.699999999999946,tau,P,False
+neither,time_delayed,The points correspond to the choice you made 3 trials ago.,-0.292857142857315,-1.2789769243681803e-13,0.2928571428571871,0.2928571428571871,theta,S,False
+neither,bernoulli,The probability for returning points is fixed for each button.,0.0642857142857558,1.4210854715202004e-14,-0.06428571428574159,0.06428571428574159,tau,S,False
+neither,bernoulli,Choose a button multiple times to learn its probability of returning points.,0.06428571428578723,5.329071662038987e-14,-0.06428571428573394,0.06428571428573394,tau,P,False
+neither,bernoulli,There is a chance of returning 0 points even if the button is good.,0.0642857142856973,-3.2784953342518935e-14,-0.06428571428573009,0.06428571428573009,tau,S,False

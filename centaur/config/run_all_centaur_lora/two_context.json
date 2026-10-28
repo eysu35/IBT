@@ -1,0 +1,21 @@
+{
+  "model_name": "eys8549/centaur_IBT",
+  "model_nickname": "centaur_lora",
+  "mode": "probabilistic",
+  "bandit": "two_context",
+  "additional_instruction": " You will also see either a square or a circle.",
+  "rotate": true,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "The button values change for square and circle.",
+      "Explore the buttons to find the best one for each shape.",
+      "When you see a square, {max2} is the best. When you see a circle, {min2} is the best.",
+      "Pay attention to the shapes.",
+      "Each shape corresponds to a different set of button values."
+    ],
+  "ntrials": 40
+}

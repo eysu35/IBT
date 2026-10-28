@@ -1,0 +1,49 @@
+task_type,hint_id,hint_type,full_text,short_label,exp1,exp2,exp2_text
+stationary,stat_nohint,none,No hint.,No hint,True,True,No hint.
+stationary,stat_1,V,{max2} is the best.,{max2} is the best,True,True,{max2} is the best.
+stationary,stat_2,V,{min2} is the worst.,{min2} is the worst,True,True,Avoid {min1} and {min2}.
+stationary,stat_3,P,"Explore all buttons, then stick with the one that gave the most points.","Explore all, then stick",True,True,"Explore all buttons, then stick with the one that gave the most points."
+stationary,stat_4,V,"{max1} is better than {min2}, {min1}, and {mid}.",{max1} better than three others,True,True,{max1} and {max2} are better than the others.
+stationary,stat_5,S,One button is the best.,One button is the best,True,True,One button is the best.
+drifting,drift_nohint,none,No hint.,No hint,True,False,
+drifting,drift_1,V,"{max2} begins as the best, but the button values change over trials.","{max2} best at first, values change",True,False,
+drifting,drift_2,S,The button values drift by a small number at each trial.,Values drift a little each trial,True,False,
+drifting,drift_3,P,"Even after finding a good button, continue trying the others to detect changes.",Keep trying others to detect change,True,False,
+drifting,drift_4,V,{min2} and {min1} begin as the worst buttons.,"{min2}, {min1} worst at first",True,False,
+drifting,drift_5,S,The button values change gradually.,Values change gradually,True,False,
+time_delayed,delay_nohint,none,No hint.,No hint,True,False,
+time_delayed,delay_1,V,{max2} is the best.,{max2} is the best,True,False,
+time_delayed,delay_2,V,"{max2} is the best, even if it doesn't seem like it at first.","{max2} is best, despite first look",True,False,
+time_delayed,delay_3,P,Choose a button for a few trials in a row to observe its true value.,Repeat a button to see its value,True,False,
+time_delayed,delay_4,S,The points correspond to the choice you made 3 trials ago.,Points come from 3 trials ago,True,False,
+time_delayed,delay_5,S,There is a time delay between your choice and the points you receive.,Points are delayed,True,False,
+patch_foraging,patch_nohint,none,No hint.,No hint,True,True,No hint.
+patch_foraging,patch_1,V,"{max2} begins as the best, but the points decrease over time.","{max2} best at first, then decreases",True,True,"{max2} begins as the best, but the points decrease over time."
+patch_foraging,patch_2,S,"Each button value will decrease if you keep choosing it, but it will increase over time if not.","Values fall if chosen, recover if not",True,True,"Each button value will decrease if you keep choosing it, but it will increase over time if not."
+patch_foraging,patch_3,P,Find a few good buttons and alternate between them to maximize your points.,Alternate between good buttons,True,True,Find a few good buttons and alternate between them to maximize your points.
+patch_foraging,patch_4,S,The points you get on the first pick of a button are the most representative of the button value.,First pick is most representative,True,True,The points you get on the first pick of a button are the most representative of the button value.
+patch_foraging,patch_5,P,Do not stick with any one button for too long.,Don't stick with one button,True,True,Do not stick with any one button for too long.
+two_context,ctx2_nohint,none,No hint.,No hint,True,False,
+two_context,ctx2_1,S,The button values change for square and circle.,Values change for square vs circle,True,False,
+two_context,ctx2_2,P,Explore the buttons to find the best one for each shape.,Find the best button per shape,True,False,
+two_context,ctx2_3,V,"When you see a square, {max2} is the best. When you see a circle, {min2} is the best.",Square: {max2} best; circle: {min2} best,True,False,
+two_context,ctx2_4,P,Pay attention to the shapes.,Pay attention to the shapes,True,False,
+two_context,ctx2_5,S,Each shape corresponds to a different set of button values.,Each shape has its own values,True,False,
+three_context,ctx3_nohint,none,No hint.,No hint,True,False,
+three_context,ctx3_1,P,Explore the buttons to find the best one for each shape.,Find the best button per shape,True,False,
+three_context,ctx3_2,P,Pay attention to the shapes.,Pay attention to the shapes,True,False,
+three_context,ctx3_3,V,"When you see a square, choose G. When you see a circle, choose A. When you see a triangle, explore all buttons to find the best.",Square: G; circle: A; triangle: explore,True,False,
+three_context,ctx3_4,S,The button values change under each shape.,Values change under each shape,True,False,
+three_context,ctx3_5,S,"When you see a square or circle, the buttons are sorted in different directions.",Square and circle sorted oppositely,True,False,
+bernoulli,bern_nohint,none,No hint.,No hint,True,False,
+bernoulli,bern_1,V,{max2} is most likely to return 100 points.,{max2} most likely to pay 100,True,False,
+bernoulli,bern_2,P,"Explore all buttons, then stick to the one that most often returned points.","Explore all, then stick to best",True,False,
+bernoulli,bern_3,S,The probability for returning points is fixed for each button.,Each button has a fixed probability,True,False,
+bernoulli,bern_4,S,There is a chance of returning 0 points even if the button is good.,Good buttons can still return 0,True,False,
+bernoulli,bern_5,P,Choose a button multiple times to learn its probability of returning points.,Repeat a button to learn its odds,True,False,
+linear_contextual,lincon_nohint,none,No hint.,No hint,True,False,
+linear_contextual,lincon_1,V,"If the third number under the button is 1, you will get the most points.",Third number 1 gives most points,True,False,
+linear_contextual,lincon_2,S,One of the three numbers under the buttons always leads to more points.,One number always means more points,True,False,
+linear_contextual,lincon_3,S,The three numbers under each button combine to calculate the total points.,Numbers combine into the points,True,False,
+linear_contextual,lincon_4,P,Choose the button with a 1 as its third number.,Choose third number 1,True,False,
+linear_contextual,lincon_5,S,The first number has a negative impact on the points. Only choose buttons with a 0 as the first number.,First number hurts; choose first 0,True,False,

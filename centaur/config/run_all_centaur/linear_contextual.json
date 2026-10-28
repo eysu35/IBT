@@ -1,0 +1,18 @@
+{
+  "model_name": "marcelbinz/Llama-3.1-Centaur-70B-adapter",
+  "model_nickname": "centaur",
+  "mode": "probabilistic",
+  "bandit": "linear_contextual",
+  "temperature": 0.6,
+  "narms": 5,
+  "thetas": [[-2, 0, 5]],
+  "hints" : [
+      "No hint.",
+      "If the third number under the button is 1, you will get the most points.",
+      "One of the three numbers under the buttons always leads to more points.",
+      "The three numbers under each button combine to calculate the total points.",
+      "Choose the button with a 1 as its third number.",
+      "The first number has a negative impact on the points. Only choose buttons with a 0 as the first number."
+    ],
+  "ntrials": 20
+}

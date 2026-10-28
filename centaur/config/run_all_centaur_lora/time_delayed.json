@@ -1,0 +1,20 @@
+{
+  "model_name": "eys8549/centaur_IBT",
+  "model_nickname": "centaur_lora",
+  "mode": "probabilistic",
+  "bandit": "time_delayed",
+  "rotate": true,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "{max2} is the best.",
+      "{max2} is the best, even if it doesn't seem like it at first.",
+      "Choose a button for a few trials in a row to observe its true value.",
+      "The points correspond to the choice you made 3 trials ago.",
+      "There is a time delay between your choice and the points you receive."
+    ],
+  "ntrials": 20
+}

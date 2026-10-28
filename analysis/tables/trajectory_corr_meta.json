@@ -1,0 +1,18 @@
+{
+  "table": "trajectory_corr.csv",
+  "git": "55bbdb79e189d2efbe27a4d73fe682a84e3ce14f",
+  "seed": 20261009,
+  "n_boot": 10000,
+  "rows": 9,
+  "columns": [
+    "y",
+    "x",
+    "pair",
+    "metric",
+    "pearson_r",
+    "spearman_rho",
+    "r_lo",
+    "r_hi",
+    "n"
+  ]
+}

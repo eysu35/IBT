@@ -1,0 +1,20 @@
+{
+  "model_name": "marcelbinz/Llama-3.1-Centaur-70B-adapter",
+  "model_nickname": "centaur",
+  "mode": "probabilistic",
+  "bandit": "drifting",
+  "rotate": true,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "{max2} begins as the best, but the button values change over trials.",
+      "The button values drift by a small number at each trial.",
+      "Even after finding a good button, continue trying the others to detect changes.",
+      "{min2} and {min1} begin as the worst buttons.",
+      "The button values change gradually."
+    ],
+  "ntrials": 20
+}

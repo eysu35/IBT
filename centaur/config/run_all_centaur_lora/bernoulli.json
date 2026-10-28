@@ -1,0 +1,20 @@
+{
+  "model_name": "eys8549/centaur_IBT",
+  "model_nickname": "centaur_lora",
+  "mode": "probabilistic",
+  "bandit": "bernoulli",
+  "rotate": true,
+  "temperature": 0.6,
+  "narms": 5,
+  "arm_means": [ [10, 20, 40, 60, 80] ],
+  "arm_stds": [5, 5, 5, 5, 5],
+  "hints" : [
+      "No hint.",
+      "{max2} is most likely to return 100 points.",
+      "Explore all buttons, then stick to the one that most often returned points.",
+      "The probability for returning points is fixed for each button.",
+      "There is a chance of returning 0 points even if the button is good.",
+      "Choose a button multiple times to learn its probability of returning points."
+    ],
+  "ntrials": 40
+}
