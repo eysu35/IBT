@@ -19,6 +19,7 @@ centaur/                LLM agents: runner + configs, raw sims (data/raw, data/h
 analysis/               result1..5_*.py -> figures/; tables/ (CSV tables the figures read); bayes_ablations.py;
                         sensitivity_power.py; scripts/ (Slurm)
 constants.py            task order, hint texts, Bayesian priors
+website/                project page (GitHub Pages): playable task, Bayesian agent and Centaur demos, results
 ```
 
 ## Data

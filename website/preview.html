@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- source of preview.png (the link-preview image), a simplified Figure 1a; screenshot at 1200x630 -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>IBT preview card</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  p { margin: 0; }
+  .card {
+    width: 1200px; height: 630px; padding: 44px 56px 48px; background: #fbfbfc; border-top: 8px solid #4b5aa8;
+    font-family: "IBM Plex Sans", sans-serif; color: #15171f; display: grid; grid-template-rows: auto 1fr; gap: 30px;
+  }
+  .eyebrow { font-size: 24px; color: #585c6c; margin-bottom: 8px; }
+  h1 { font-size: 42px; line-height: 1.16; font-weight: 400; letter-spacing: -.01em; margin: 0; }
+  .trio { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; min-height: 0; }
+  .panel { border-radius: 12px; padding: 22px 24px; display: grid; grid-template-rows: auto 1fr; gap: 18px; background: var(--soft); border: 2px solid var(--c); min-width: 0; }
+  .who { display: flex; align-items: center; gap: 12px; font-size: 28px; }
+  .who::before { content: ''; width: 20px; height: 20px; background: var(--c); flex: none; }
+  .human { --c: #4b5aa8; --soft: #e7ecf7; }
+  .bayes { --c: #0a9396; --soft: #e6f1ed; }
+  .centaur { --c: #ca6702; --soft: #f5efe3; }
+  .human .who::before { border-radius: 50%; }
+  .centaur .who::before { transform: rotate(45deg) scale(.85); }
+  .inner { background: #fbfbfc; border-radius: 8px; padding: 16px; display: grid; gap: 12px; align-content: center; min-width: 0; font-family: "IBM Plex Mono", monospace; font-size: 20px; line-height: 1.45; color: #353846; }
+  .hint { color: #166534; background: #dcfce7; border-left: 3px solid #22c55e; border-radius: 0 6px 6px 0; padding: 8px 12px; }
+  .arms { display: grid; grid-template-columns: repeat(5, 1fr); gap: 6px; }
+  .arms span { text-align: center; padding: 10px 0; border: 2px solid #22c55e; border-radius: 6px; color: #15803d; background: #f0fdf4; }
+  .rows { display: grid; grid-template-columns: auto auto 1fr; gap: 2px 18px; color: #585c6c; }
+  .rows b { font-weight: 400; color: #15171f; }
+  .centaur .inner b { font-weight: 400; color: #ca6702; }
+  svg { width: 100%; height: auto; display: block; overflow: visible; }
+  svg text { font-family: "IBM Plex Sans", sans-serif; font-size: 20px; fill: #585c6c; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div>
+    <p class="eyebrow">Instructed Bandit Tasks</p>
+    <h1>Language reshapes experiential learning in humans and machines</h1>
+  </div>
+  <div class="trio">
+    <div class="panel human">
+      <p class="who">People</p>
+      <div class="inner">
+        <div class="hint">G is the best.</div>
+        <div class="arms"><span>A</span><span>S</span><span>D</span><span>F</span><span>G</span></div>
+        <div class="rows"><span>1</span><b>A</b><span>22.1</span><span>2</span><b>G</b><span>83.4</span><span>3</span><b>S</b><span>18.7</span></div>
+      </div>
+    </div>
+    <div class="panel bayes">
+      <p class="who">Bayesian agent</p>
+      <div class="inner"><svg id="bayes" viewBox="0 0 300 230" role="img" aria-label="Prior beliefs narrowing to posterior beliefs"></svg></div>
+    </div>
+    <div class="panel centaur">
+      <p class="who">Centaur</p>
+      <div class="inner">
+        <div>Hint: Button 5 is the best.</div>
+        <div>You press &lt;&lt;1&gt;&gt; and get 22.1 points<br>You press &lt;&lt;5&gt;&gt; and get 83.4 points<br>You press &lt;&lt;<b>5</b>&gt;&gt;</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+(() => {
+  const NS = 'http://www.w3.org/2000/svg', root = document.getElementById('bayes')
+  const el = (tag, attrs, text) => {
+    const e = document.createElementNS(NS, tag)
+    for (const k in attrs) e.setAttribute(k, attrs[k])
+    if (text) e.textContent = text
+    return root.appendChild(e)
+  }
+  const W = 300, x = (v) => 6 + (v / 100) * (W - 12)
+  const row = (label, base, height, arms) => {
+    el('text', { x: 0, y: base - height - 12 }, label)
+    el('line', { x1: 0, x2: W, y1: base, y2: base, stroke: '#585c6c', 'stroke-width': 1.5 })
+    for (const [mu, sd, on] of arms) {
+      let d = ''
+      for (let v = Math.max(0, mu - 4 * sd); v <= Math.min(100, mu + 4 * sd); v += 0.5) d += (d ? 'L' : 'M') + x(v).toFixed(1) + ' ' + (base - height * Math.exp(-0.5 * ((v - mu) / sd) ** 2)).toFixed(1)
+      el('path', { d, fill: on ? 'rgba(10,147,150,.22)' : 'none', stroke: '#0a9396', 'stroke-width': on ? 3 : 1.5 })
+    }
+  }
+  row('Prior', 78, 44, [[20, 13], [35, 13], [50, 13], [65, 13], [80, 13]])
+  el('text', { x: W / 2, y: 112, 'text-anchor': 'middle' }, '↓ hint + rewards')
+  row('Posterior', 222, 62, [[24, 5], [42, 9], [55, 10], [18, 6], [84, 4.5, true]])
+})()
+</script>
+</body>
+</html>

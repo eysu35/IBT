@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Instructed Bandit Tasks</title>
+<meta name="description" content="How natural-language hints reshape learning from experience in people, a hierarchical Bayesian agent, and Centaur.">
+<meta property="og:title" content="Language reshapes experiential learning in humans and machines">
+<meta property="og:description" content="Play the Instructed Bandit Tasks and explore how hints change learning in people and models.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.ellensu.me/IBT/">
+<meta property="og:image" content="https://www.ellensu.me/IBT/preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The three learners in the Instructed Bandit Tasks: people see a hint and five buttons, a Bayesian agent updates prior beliefs to posterior beliefs, and Centaur reads the game as text.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='12' fill='%234b5aa8'/></svg>">
+</head>
+<body>
+
+<header class="hero">
+  <p class="eyebrow">Preprint, 2026</p>
+  <h1>Language reshapes experiential learning in humans and machines</h1>
+  <p class="authors">Ellen Su, Divya Srinivasan, Mark K. Ho, Todd M. Gureckis<span class="aff"> · New York University</span></p>
+  <nav class="links">
+    <a href="https://osf.io/preprints/psyarxiv/8ahkm_v1">Paper</a>
+    <a href="https://github.com/eysu35/IBT">Code</a>
+    <a href="https://doi.org/10.5281/zenodo.23720109">Data</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="idea" class="intro">
+  <p class="lede">Human decision making draws on both direct evidence, which is accrued incrementally over time, and natural language, which arrives rapidly and is often abstract in meaning. In deciding where to get coffee, for example, you may weigh your own past experiences against a friend’s recommendation that “Coffee Project is the best.” In this project, we are interested in how these partial, verbal hints reshape what we have learned from experience in a seamless manner to guide everyday decisions.</p>
+  <p>We augment the multi-armed bandit with natural-language hints about a task's structure, parameters, or policy, creating the Instructed Bandit Tasks (IBT). Across two large experiments, we ask how hints change people's choices and compare them to two models. A hierarchical Bayesian agent treats each hint as a constraint on its beliefs, and Centaur is a language model fine-tuned on human behaviour.</p>
+  <p class="sub guide"><a href="#ibt">Explore the tasks</a>, <a href="#players">play the games</a> alongside the models, and <a href="#results">see the results</a>.</p>
+</section>
+
+<section id="ibt" class="zone">
+  <h2>Instructed Bandit Tasks</h2>
+  <p class="sub">The IBT are eight bandit tasks. In each, the player presses one of five buttons to earn points and may be given a hint about the task.</p>
+  <div class="chips" id="ibt-chips" role="tablist" aria-label="Task"></div>
+  <div class="two">
+    <div class="chart" id="ibt-anim"></div>
+    <div>
+      <p class="panel-label">Possible hints</p>
+      <ul class="hint-list" id="ibt-hints"></ul>
+    </div>
+  </div>
+</section>
+
+<section id="players" class="zone">
+  <h2>Players</h2>
+<article class="finding" id="play">
+  <h3 class="who human">People</h3>
+  <p class="sub">Participants played up to 15 games, each with a random task and hint. Pick a task and a hint, then press buttons to earn as many points as you can.</p>
+  <div class="controls">
+    <div class="chips" id="task-chips" role="tablist" aria-label="Task"></div>
+    <select id="hint-select" aria-label="Hint"></select>
+  </div>
+  <div class="two">
+  <div class="game" id="game">
+    <div class="game-top">
+      <span class="trial-counter" id="trial-counter"></span>
+      <span class="score" id="score"></span>
+    </div>
+    <div class="hint-box" id="hint-box" hidden></div>
+    <div class="context" id="context" hidden></div>
+    <div class="arms" id="arms"></div>
+    <div class="features" id="features" hidden></div>
+    <ol class="history" id="history"></ol>
+    <div class="game-actions">
+      <button class="btn" id="start-btn">Start</button>
+    </div>
+  </div>
+  <div class="result" id="result" hidden>
+    <p class="sub" id="result-text"></p>
+    <div class="chart" id="result-chart"></div>
+  </div>
+  </div>
+</article>
+
+<article class="finding" id="model">
+  <h3 class="who bayes">Bayesian agent</h3>
+  <p class="sub">The agent holds beliefs about which of the eight tasks it is in and what each button is worth, and updates both after every reward. A hint keeps only the worlds in which it is true. The task is drawn at random and hidden, as it is for people. Press buttons and watch the beliefs sharpen.</p>
+  <div class="controls">
+    <select id="demo-hint" aria-label="Hint"></select>
+    <button class="btn ghost" id="demo-reveal">Reveal the task</button>
+    <button class="btn ghost" id="demo-reset">New game</button>
+  </div>
+  <div class="demo two">
+    <div class="demo-left">
+      <div class="game-top"><span id="demo-trial"></span></div>
+      <div class="context" id="demo-context" hidden></div>
+      <div class="demo-arms" id="demo-arms"></div>
+      <div class="features" id="demo-features" hidden></div>
+      <div class="chart" id="demo-chart"></div>
+      <div class="chart" id="demo-theta" hidden></div>
+    </div>
+    <div class="demo-left">
+      <div class="chart" id="demo-types"></div>
+      <div class="chart" id="demo-probs"></div>
+    </div>
+  </div>
+  <div class="eq">
+    \[ \underbrace{P(\tau,\, \mu_{1:N},\, \theta_\tau \mid h_t)}_{\text{Posterior}} \;\propto\; \underbrace{P(\tau)}_{\text{Type prior}} \; \underbrace{P(\mu_{1:N},\, \theta_\tau \mid \tau)}_{\text{Parameter prior}} \; \underbrace{P(h_t \mid \tau,\, \mu_{1:N},\, \theta_\tau)}_{\text{Likelihood}} \; \underbrace{\exp\{\gamma\, f_{l}(\tau,\, \mu_{1:N})\}}_{\text{Hint weight}} \]
+  </div>
+</article>
+
+<article class="finding" id="centaur">
+  <h3 class="who centaur">Centaur</h3>
+  <p class="sub">Centaur is a language model fine-tuned on human behaviour. It reads the game as text, hint and history included, and answers with a button number. Run one of its recorded games.</p>
+  <div class="controls">
+    <div class="chips" id="centaur-chips" role="tablist" aria-label="Task"></div>
+    <select id="centaur-hint" aria-label="Hint"></select>
+  </div>
+  <div class="centaur-grid">
+    <div>
+      <p class="panel-label">What Centaur reads</p>
+      <pre class="prompt" id="prompt"></pre>
+    </div>
+    <div>
+      <p class="panel-label">What it answers</p>
+      <div id="centaur-chart"></div>
+    </div>
+  </div>
+</article>
+</section>
+
+<section id="results" class="zone">
+  <h2>Results</h2>
+
+  <article class="finding">
+    <h3>1. Hints improve learning</h3>
+    <p class="sub">People learn each task from experience alone, and hints improve performance on most task types. Both models reproduce the benefit.</p>
+    <div class="chips small" id="curve-chips" role="tablist" aria-label="Task"></div>
+    <div class="chart" id="curve-chart"></div>
+  </article>
+
+  <article class="finding">
+    <h3>2. Hints modulate performance differently in each task type</h3>
+    <p class="sub">The same hint was roughly twice as beneficial in the time delayed task as in the stationary one, and one strictly true hint in the patch foraging task reliably increased regret. Both models predicted which hints help most, but only Centaur predicted the interference.</p>
+    <div class="chips small" id="effect-chips" role="tablist" aria-label="Task"></div>
+    <div class="chart" id="effect-chart"></div>
+  </article>
+
+  <article class="finding">
+    <h3>3. Providing hints after experience alters their effect</h3>
+    <p class="sub">People integrate hints differently depending on prior experience. Value hints helped only when introduced at the start of the game. Centaur largely reproduced this sensitivity to timing, whereas the Bayesian model, which treats a hint as accurate evidence whenever it arrives, did not.</p>
+    <div class="chips small" id="timing-chips" role="tablist" aria-label="Task"></div>
+    <div class="chart" id="timing-chart"></div>
+  </article>
+
+</section>
+
+</main>
+
+<footer>
+  <pre class="cite" id="cite">Su, E., Srinivasan, D., Ho, M. K., &amp; Gureckis, T. M. (2026). Language reshapes experiential learning in humans and machines. PsyArXiv. https://osf.io/preprints/psyarxiv/8ahkm_v1</pre>
+  <button class="btn ghost" id="copy-cite">Copy citation</button>
+</footer>
+
+<div class="tooltip" id="tooltip" hidden></div>
+<script>window.MathJax = { tex: { displayMath: [['\\[', '\\]']] }, svg: { fontCache: 'global' }, startup: { ready() { MathJax.startup.defaultReady(); MathJax.startup.promise.then(() => document.querySelectorAll('mjx-assistive-mml').forEach((e) => e.remove())) } }, options: { enableAssistiveMml: false, skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'] } }</script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-svg.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
